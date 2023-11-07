@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: rgb(253, 148, 144);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 148, 144, 1) 0%,
+    rgba(249, 242, 223, 1) 66%,
+    rgba(249, 242, 223, 1) 100%
+  );
+}
+#random-image {
+  max-width: 600px;
+}
+#caption {
+  min-height: 24px;
+}

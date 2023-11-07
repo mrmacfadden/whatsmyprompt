@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      user-scalable="no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Image and Caption</title>
+  </head>
+  <body>
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                <h1>What's my prompt?</h1>
+                <div id="image-container">
+                    <img id="random-image" src="" alt="Random Image" class="img-fluid">
+                </div>
+                <p id="caption" class="mt-3 d-none">
+                    Caption: <span id="caption-text"></span>
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="show-caption" class="btn btn-primary mt-2">
+                    Show Caption
+                </button>
+                <button id="new-image" class="btn btn-success mt-2">New Image</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
